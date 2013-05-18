@@ -6,7 +6,7 @@
 #include<string.h>
 main()
 {
-  int sd_ser,sd_cli;
+	int sd_ser,sd_cli;
 	int len_ser,len_cli;
 	struct sockaddr_in server_st,client_st;
 	char rdbuf[128],wrbuf[128];
