@@ -6,7 +6,7 @@
 #include<strings.h>
 main(int c, char *v[])
 {
-  int sd_ser;
+	int sd_ser;
 	int len_ser;
 	struct sockaddr_in server_st;
 	char wrbuf[128],rdbuf[128];
